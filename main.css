@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&display=swap");
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,6 +11,10 @@
   /*border:2px solid blanchedalmond;*/
 }
 body {
+  width: auto;
+  height: auto;
+  max-width: 1600px;
+  max-height: 300px;
   background-image: url(/image/background.svg);
 }
 li,a {
@@ -24,7 +28,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5em;
+  padding: 1.5em;
 }
 .menu{
   float: left;
@@ -47,17 +51,23 @@ header {
 }
 
 #intro{
+  position: relative;
+  top:-5em;
   text-align: center;
+
 }
 
 .logo li img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 1em;
 }
 
 
 .moto-info{
+  position: relative;
+  bottom: 30em;
   margin: auto;
   padding: 0  5em 5em 5em;
 }
@@ -67,11 +77,12 @@ header {
   position: relative;
   display: inline-block;
   left: 5.5em;
+  bottom: -18em;
 }
 
 #left-arrow,#right-arrow{
   position: relative;
-  bottom: 15em;
+  bottom: 25em;
 }
 
 #information
@@ -80,13 +91,17 @@ header {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding:5em;
-  border-radius: 4em;
+  padding:2em;
+  border-radius:50px;
+  height: 25em;
+}
+#parameter{
+  margin: ;
 }
 #parameter-name{
   color: black;
   font-size: 15px;
-  padding:1em 1em 1em 0;
+  padding:0.5em 0.5em 0.5em 0.5em;
   font-family:'Lato';
 }
 #value{
@@ -94,4 +109,25 @@ header {
   font-family: 'Lato';
   font-weight: bold;
   font-size: large;
+  padding-left: 0.5em;
 }
+
+#color{
+  display: inline-block;
+  height: auto;
+  margin: 0;
+  padding: 2em;
+  position: relative;
+  top:18em;
+}
+#quote{
+  font-size: 50px;
+  font-family: 'Italianno', cursive;
+  font-weight: 400;
+  color: #707070;
+  position: relative;
+  top:3.5em;
+  right:3em;
+  text-align: center;
+}
+
