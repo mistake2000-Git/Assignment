@@ -10,10 +10,6 @@
 }
 
 body {
-  width: auto;
-  height: auto;
-  max-width: 1600px;
-  max-height: 300px;
   background-image: url(/image/background.svg);
 }
 li,
