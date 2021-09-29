@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -95,9 +96,7 @@ header {
   border-radius:50px;
   height: 25em;
 }
-#parameter{
-  margin: ;
-}
+
 #parameter-name{
   color: black;
   font-size: 15px;
