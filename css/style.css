@@ -8,119 +8,97 @@
   margin: 0;
   padding: 0;
 }
-
-body {
-  background-color: black;
-  background-image: url(../image/background.svg);
+body{
+  background-image: url("../image/background.svg");
 }
-li,
-a {
-  font-family: "Merriweather";
-  font-size: 12px;
+li,a {
+  font-family: 'Merriweather', serif;
+  list-style: none;
   color: white;
   text-decoration: none;
-  list-style: none;
 }
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 1.5em;
-}
-.menu {
-  float: left;
+  padding: 2em 2em 0 2em;
 }
 .menu li {
-  padding: 1em 2em 1em 1em;
-}
-.nav-link,
-.menu {
-  list-style: none;
-  padding: 1em;
-}
-
-.nav-link,
-.menu li {
   display: inline-block;
+  padding-left: 1.5em;
+  ;
 }
-
-.nav-link li {
+.nav-link li{
   display: inline-block;
-}
-
-#intro {
-  position: relative;
-  top: -5em;
-  text-align: center;
-}
-
-.logo li img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 1em;
-}
-
-.moto-info {
-  position: relative;
-  bottom: 30em;
-  margin: auto;
-  padding: 0 5em 5em 5em;
-}
-
-#slide {
-  height: 70%;
-  position: relative;
-  display: inline-block;
-  left: 5.5em;
-  bottom: -18em;
-}
-
-#left-arrow,
-#right-arrow {
-  position: relative;
-  bottom: 25em;
-}
-
-#information {
-  margin: auto;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 2em;
-  border-radius: 50px;
-  height: 25em;
-}
-
-#parameter-name {
-  color: black;
-  font-size: 15px;
-  padding: 0.5em 0.5em 0.5em 0.5em;
-  font-family: "Lato";
-}
-#value {
-  color: black;
-  font-family: "Lato";
-  font-weight: bold;
-  font-size: large;
   padding-left: 0.5em;
 }
 
-#color {
-  display: inline-block;
-  height: auto;
-  margin: 0;
-  padding: 2em;
+#intro{
   position: relative;
-  top: 18em;
+  top:-20px;
+  text-align: center;
+  max-height: ;
 }
-#quote {
-  font-size: 50px;
-  font-family: "Italianno", cursive;
-  font-weight: 400;
+.logo li{
+  padding-bottom: 0.5em;
+}
+
+.moto-info{
+  padding: 4em;
+}
+
+#slide{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#moto-image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#information{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  border-radius: 3em;
+  position:initial;
+}
+#parameter li{
+  color:black
+}
+#parameter{
+  padding: 3em;
+}
+#parameter li{
+  padding-bottom: 0.3em;
+}
+#parameter-name{
+  font-family: "Lato";
+  font-size: 14;
+}
+#value{
+  font-family:"Lato";
+  font-weight: bold;
+  font-size: 20;
+}
+
+#color-menu{
+  position: relative;
+  top:13em;
+  right:3em;
+}  
+#color-menu a{
+  padding:2em
+}
+#quote{
   color: #707070;
   position: relative;
-  top: 3.5em;
-  right: 3em;
-  text-align: center;
+  right: 2.5em;
+  top:3em;
+  font-family: 'Italianno', cursive;
+  font-size: 3em;
 }
